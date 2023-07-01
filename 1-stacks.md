@@ -42,9 +42,23 @@ def find_maximum(stack):
             max_element = element
 
     return max_element
+
+# Test the function
+def test_find_maximum():
+    assert find_maximum(Stack([5, 2, 9, 1, 7])) == 9
+    assert find_maximum(Stack([])) is None
+    print("find_maximum test passed!")
+
+test_find_maximum()
 ```
 
 ## Problem To Solve
-Suppose we have a string containing parentheses, and we need to check if the parentheses are balanced. Assuming that the "basic setup" portion is already in place, write a function that checks if the parentheses are balanced in a given string. [Link to Solution](balance-parens.md)
+Suppose we have a string containing parentheses, and we need to check if the parentheses are balanced. Write a function that checks if the parentheses are balanced in a given string. [Link to Solution](balance-parens.md)
+
+## Operations and Performance
+- Push Operation: The new element is added to the top of the stack. **O(1)**.
+- Pop Operation: The topmost element is removed from the stack. **O(1)**.
+- Peek Operation: Allows you to access the top element without modifying the stack. **O(1)**.
+- Search Operation: Search the stack for a given value. Linear time complexity. In the worst case, you may need to traverse the entire stack to find the desired element. Therefore, time complexity is equal to the number of elements in the stack (n). **O(n)**.
 
 [Back to Welcome Page](0-welcome.md)
