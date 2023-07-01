@@ -1,17 +1,17 @@
-# Python Fundamentals Tutorial
+# Data Structures Tutorial
 
-Welcome to the Python Fundamentals Tutorial.  Every beginning Python programmer should understand these basic topics:
+Welcome to the Data Structures Tutorial. This tutorial will cover these basic topics:
 
-- [Conditionals](1-conditionals.md)
-- [Loops](2-loops.md)
-- [Functions](3-functions.md)
+- [Stacks](1-stacks.md)
+- [Sets](2-sets.md)
+- [Trees](3-trees.md)
 
-Each module will contain descriptions and examples.  At the end of each module, you will find a problem to solve on your own.  You should only look at the solution after you have attempted to solve the problem first.
+Each module will contain descriptions and examples.  At the end of each module, you will find a problem to solve on your own.
 
 ## Contact
 
-For questions or comments, please send them to:
+Jake Edwards
 
-Chad Macbeth, BYU-Idaho, CSE 310, Section 3
+CSE 212
 
-macbethc@byui.edu
+edw17003@byui.edu
