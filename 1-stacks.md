@@ -11,8 +11,11 @@ _Source: www.tutorialspoint.com_
 ## Basic Setup
 ```python
 class Stack:
-    def __init__(self):
-        self.stack = []
+    def __init__(self, items=None):
+        if items is None:
+            self.stack = []
+        else:
+            self.stack = list(items)
 
     def push(self, item):
         self.stack.append(item)
@@ -47,7 +50,7 @@ def find_maximum(stack):
 def test_find_maximum():
     assert find_maximum(Stack([5, 2, 9, 1, 7])) == 9
     assert find_maximum(Stack([])) is None
-    print("find_maximum test passed!")
+    print("test passed")
 
 test_find_maximum()
 ```

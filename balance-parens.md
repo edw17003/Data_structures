@@ -1,7 +1,10 @@
 ```python        
 class Stack:
-    def __init__(self):
-        self.stack = []
+    def __init__(self, items=None):
+        if items is None:
+            self.stack = []
+        else:
+            self.stack = list(items)
 
     def push(self, item):
         self.stack.append(item)
