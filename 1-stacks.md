@@ -3,10 +3,10 @@
 A stack is a data structure where the last item added is the first one to be removed. A phrase commonly associated with this is "Last In, First Out" (LIFO). I think of python stacks like a stack of plates: you can only access or remove the top-most plate. You wouldn't naturally add **or** remove from the middle or the bottom.
 
 <picture>
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg">
+  <img alt="LIFO diagram." src="https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg">
 </picture>
 
-_Source: www.tutorialspoint.com_
+_Source: tutorialspoint.com_
 
 ## Basic Setup
 ```python
@@ -62,6 +62,6 @@ Suppose we have a string containing parentheses, and we need to check if the par
 - Push Operation: The new element is added to the top of the stack. **O(1)**.
 - Pop Operation: The topmost element is removed from the stack. **O(1)**.
 - Peek Operation: Allows you to access the top element without modifying the stack. **O(1)**.
-- Search Operation: Search the stack for a given value. Linear time complexity. In the worst case, you may need to traverse the entire stack to find the desired element. Therefore, time complexity is equal to the number of elements in the stack (n). **O(n)**.
+- Search Operation: Search the stack for a given value. Linear time complexity. In the worst case, you will traverse the entire stack to find the desired element. Therefore, time complexity is equal to the number of elements in the stack (n). **O(n)**.
 
 [Back to Welcome Page](0-welcome.md)
