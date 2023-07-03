@@ -41,12 +41,12 @@ print(common_elements) # {4, 5}
 ```
 
 ## Problem To Solve
-Suppose we have two sets, 'set1' and 'set2'. Write some code that outputs whether or not set1 is a subset of set2. [Link to Solution](subset-check.md)
+Suppose we have two sets, 'set1' and 'set2'. Write some code that outputs whether or not set1 is a subset of set2. [Link to Solution](is-subset.md)
 
 ## Operations and Performance
 - Adding Elements: The new element is added to the set. **O(1)**.
 - Removing Elements: Search the set for the given value and remove it. In the worst case scenario, you will traverse the entire set to find the desired element. **O(n)**.
 - Intersection: You need to check for the smaller set whether each of its elements is a member of the larger set. **O(min(n, m))**.
-- Union: 
+- Union: You need to create an empty set and insert all elements, and then insert all elements into the newly created set. Inserting an element into a set is O(1), so the complexity is O(n) * O(1) + O(m) * O(1) = **O(m+n)**.
 
 [Back to Welcome Page](0-welcome.md)

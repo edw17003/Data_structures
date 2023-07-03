@@ -1,6 +1,6 @@
 # Stacks
 ## Introduction
-A stack is a data structure where the last item added is the first one to be removed. A phrase commonly associated with this is "Last In, First Out" (LIFO). I think of python stacks like a stack of plates: you can only access or remove the top-most plate. You wouldn't naturally add **or** remove from the middle or the bottom.
+A stack is a data structure where the last item added is the first one to be removed. A phrase commonly associated with this is "Last In, First Out" (LIFO). I think of python stacks like a stack of plates: you can only access or remove the top-most plate. You wouldn't naturally **add or remove** from the middle or the bottom.
 
 <picture>
   <img alt="LIFO diagram." src="https://www.tutorialspoint.com/data_structures_algorithms/images/stack_representation.jpg">
@@ -56,7 +56,7 @@ test_find_maximum()
 ```
 
 ## Problem To Solve
-Suppose we have a string containing parentheses, and we need to check if the parentheses are balanced. Write a function that checks if the parentheses are balanced in a given string. [Link to Solution](balance-parens.md)
+Suppose we have a string containing parentheses, and we need to check if the parentheses are balanced. Write a function that checks if the parentheses are balanced in a given string. [Link to Solution](is-balanced.md)
 
 ## Operations and Performance
 - Push Operation: The new element is added to the top of the stack. **O(1)**.
