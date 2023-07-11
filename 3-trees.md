@@ -44,7 +44,7 @@ node2.right = node6
 
 print(sum_values(node1)) # 17
 ```
-The sum_values function calls itself recursively in order to calculate the sum of the left and right children nodes. It starts with the current node's value, adds the sum of its left child's descendents values, then adds the sum of its right descendents values.
+Notice that the sum_values function calls itself recursively in order to calculate the sum of the left and right children nodes. It starts with the current node's value, adds the sum of its left child's descendents values, then adds the sum of its right descendents values.
 
 Because trees require traversal through an unknown number of nodes, recursion makes working with trees much simpler.
 
@@ -52,6 +52,8 @@ Because trees require traversal through an unknown number of nodes, recursion ma
 Suppose we want to find the maximum value in a binary tree. Write a function that takes a root node as the input and returns the maximum value of the descendents of the given root node. [Link to Solution](find-max.md)
 
 ## Operations and Performance
-- 
+- Search Operation: Search the tree for a given value. In the worst case, you will traverse the entire tree to find the desired element. Therefore, time complexity is equal to the number of elements in the tree (n). **O(n)**.
+- Insert Operation: For inserting element as left child of 'X', we have to traverse all elements in the tree. Therefore, insertion in a binary tree has worst case complexity of n. **O(n)**.
+- Delete Operation: For deletion of element 'X', we have to first traverse all elements to find 'X'. Therefore, deletion in a binary tree has a worst case time complexity of n. **O(n)**.
 
 [Back to Welcome Page](0-welcome.md)
